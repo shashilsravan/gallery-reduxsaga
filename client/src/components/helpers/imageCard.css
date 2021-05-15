@@ -1,0 +1,17 @@
+.imageCard {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  margin: auto;
+  margin-top: 20px;
+}
+.buttonGroup {
+  display: flex;
+  width: 100%;
+}
+.width-50 {
+  width: 120px;
+}
+.buttonGroup > button {
+  width: 50%;
+}

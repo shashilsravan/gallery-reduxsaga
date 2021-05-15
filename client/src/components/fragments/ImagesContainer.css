@@ -1,0 +1,7 @@
+.imagesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 20px;
+}

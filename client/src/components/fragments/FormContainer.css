@@ -1,0 +1,13 @@
+.formContainer {
+  border: 1.5px solid #001529;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 16px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formContainer:hover {
+  background: rgba(238, 238, 238, 0.2);
+}

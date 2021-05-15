@@ -7,8 +7,9 @@ const PictureRoute = require('./routes/PictureRoute');
 
 const app = express();
 
+const MONGO_URL = "mongodb+srv://Sravan:sravan@cluster0.amziz.mongodb.net/Gallery?retryWrites=true&w=majority"
 // database
-mongoose.connect(process.env.MONGO_URL, {
+mongoose.connect(MONGO_URL, {
     useNewUrlParser: true, useCreateIndex: true,
     useFindAndModify: false, useUnifiedTopology: true,
   }).then(() => console.log("DB CONNECTED")).catch((err) => console.log(`DB CONNECTION ERR ${err}`))
